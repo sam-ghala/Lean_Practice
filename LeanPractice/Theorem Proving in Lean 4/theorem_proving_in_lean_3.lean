@@ -137,11 +137,11 @@ example : ¬(p ∨ q) ↔ ¬p ∧ ¬q :=
 
 
 
-example : ¬p ∨ ¬q → ¬(p ∧ q) := sorry
-example : ¬(p ∧ ¬p) := sorry
-example : p ∧ ¬q → ¬(p → q) := sorry
-example : ¬p → (p → q) := sorry
-example : (¬p ∨ q) → (p → q) := sorry
-example : p ∨ False ↔ p := sorry
-example : p ∧ False ↔ False := sorry
-example : (p → q) → (¬q → ¬p) := sorry
+-- example : ¬p ∨ ¬q → ¬(p ∧ q) := sorry
+-- example : ¬(p ∧ ¬p) := sorry
+-- example : p ∧ ¬q → ¬(p → q) := sorry
+-- example : ¬p → (p → q) := sorry
+-- example : (¬p ∨ q) → (p → q) := sorry
+-- example : p ∨ False ↔ p := sorry
+-- example : p ∧ False ↔ False := sorry
+-- example : (p → q) → (¬q → ¬p) := sorry
